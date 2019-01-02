@@ -23,7 +23,7 @@ static CGFloat s_radius = 0;
 static NSTimeInterval s_fadeout = 0;
 static CGFloat s_alpha = 0;
 
-void KTouchPointerWindowInstall() 
+void KTouchPointerWindowInstall(void) 
 {
 	KTouchPointerWindowInstallWithOptions([UIColor colorWithRed:KTOUCH_POINTER_RED green:KTOUCH_POINTER_GREEN blue:KTOUCH_POINTER_BLUE alpha:KTOUCH_POINTER_ALPHA], KTOUCH_POINTER_RADIUS, KTOUCH_POINTER_FADEOUT_TIME);
 }

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/itok/KTouchPointerWindow"
   s.license      = 'MIT'
   s.author       = { "itok" => "i@itok.jp" }
-  s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/itok/KTouchPointerWindow.git", :tag => "v0.1.0" }
+  s.platform     = :ios, '10.0'
+  s.source       = { :git => "https://github.com/Piascore/KTouchPointerWindow.git", :tag => "v0.1.0" }
   s.source_files  = 'KTouchPointerWindow/*.{m,h}'
 end

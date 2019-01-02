@@ -9,7 +9,7 @@
  * 
  * ex)
  * - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
- *      KTouchPointerWindowInstall();
+ *      KTouchPointerWindowInstall(void);
  *      ...
  * }
  */
@@ -20,7 +20,7 @@ extern "C" {
 	
 #import <UIKit/UIKit.h>
 
-void KTouchPointerWindowInstall();
+void KTouchPointerWindowInstall(void);
 void KTouchPointerWindowInstallWithOptions(UIColor* color, CGFloat radius, NSTimeInterval fadeout);
 
 #ifdef __cplusplus
